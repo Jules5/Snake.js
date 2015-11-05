@@ -5,27 +5,27 @@
 
 At the beginning of HTML file :
 
-	```
-	<link href="snake/snake.css" media="all" rel="stylesheet" type="text/css"/>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="snake/snake.js"></script>
-	```
+```
+<link href="snake/snake.css" media="all" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="snake/snake.js"></script>
+```
 
 At the end of HTML file :
 
-	```
-	<script>
-		$(document).ready(function(){
+```
+<script>
+	$(document).ready(function(){
 
-			$('#myDiv').snake({
-				width : 900,
-				height : 450,
-				...
-			});
-
+		$('#myDiv').snake({
+			width : 900,
+			height : 450,
+			...
 		});
-	</script>
-	```
+
+	});
+</script>
+```
 
 
 ===== PARAMETERS =====
