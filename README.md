@@ -49,5 +49,5 @@ rand_bg     =>  (boolean) if true, the game's background changes everytime the s
 
 Developped by Jules Girard.
 
-Visit my website : @http://julesgirard.net/
+Visit my website : http://julesgirard.net/
 		
