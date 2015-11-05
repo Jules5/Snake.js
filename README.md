@@ -4,6 +4,7 @@
 ## Installation
 
 At the beginning of HTML file :
+
 	```
 	<link href="snake/snake.css" media="all" rel="stylesheet" type="text/css"/>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -11,6 +12,7 @@ At the beginning of HTML file :
 	```
 
 At the end of HTML file :
+
 	```
 	<script>
 		$(document).ready(function(){
