@@ -1,0 +1,14 @@
+.snake {background-color:white; border:1px solid black;}
+
+.snake .score {color:black; font-size:20px; margin:10px;}
+
+.snake .settings {margin:10px 10px 0;}
+
+.snake .square {z-index:1; background:#000; background-size:100% 100%; border:1px solid #666;}
+
+.snake .square.head.left {background:url("asset/head-left.png")  left center no-repeat;   background-size:100% 100%;}
+.snake .square.head.right{background:url("asset/head-right.png") right center no-repeat;  background-size:100% 100%;}
+.snake .square.head.up   {background:url("asset/head-up.png")    center top no-repeat;    background-size:100% 100%;}
+.snake .square.head.down {background:url("asset/head-down.png")  center bottom no-repeat; background-size:100% 100%;}
+
+.snake .fruit{z-index:0; background:url("asset/fruit.png") center center no-repeat; background-size:100% 100%}
