@@ -28,24 +28,26 @@ At the end of HTML file :
 ```
 
 
-===== PARAMETERS =====
+## Configuration
 
-	All parameters are optional.
+All parameters are optional :
 
-	width       =>  (integer) width of game's area in pixels
-	height      =>  (integer) height of game's area in pixels
-	cols        =>  (integer) columns number in game's grid
-	rows        =>  (integer) rows number in game's grid
-	snake_size  =>  (integer) initial size of snake
-	diff        =>  (integer) 0(Easy), 1(Normal) or 2(Hard)
-	warp        =>  (boolean) if false, the player lose when the snake hit an edge of game's area
-	state       =>  (string)  if "pause", the game start in pause, and if "play", the game start at document load
-	rand_bg     =>  (boolean) if true, the game's background changes everytime the snake eat a fruit
+```
+width       =>  (integer) width of game's area in pixels
+height      =>  (integer) height of game's area in pixels
+cols        =>  (integer) columns number in game's grid
+rows        =>  (integer) rows number in game's grid
+snake_size  =>  (integer) initial size of snake
+diff        =>  (integer) 0(Easy), 1(Normal) or 2(Hard)
+warp        =>  (boolean) if false, the player lose when the snake hit an edge of game's area
+state       =>  (string)  if "pause", the game start in pause, and if "play", the game start at document load
+rand_bg     =>  (boolean) if true, the game's background changes everytime the snake eat a fruit
+```
 
 
-===== CREDITS =====
+## Credits
 
-	Developped by Jules Girard.
+Developped by Jules Girard.
 
-		Visit my website : http://julesgirard.net/
+Visit my website : @http://julesgirard.net/
 		
